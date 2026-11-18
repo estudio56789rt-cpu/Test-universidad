@@ -17,7 +17,7 @@ body div.cajaa {
     color: #68687e;
     padding: 20px;
     border-radius: 120px;
-    width: 200px;
+    width: 250px;
     margin-left: auto;
 }
 body button {
@@ -31,4 +31,17 @@ body button {
     border-radius: 5px;
     cursor: pointer;
     margin-left: auto;
+}
+@media (max-width: 600px) {
+    img {
+        width: 130px;
+    }
+
+    body div.cajaa {
+        margin: 20px auto;
+        width: 280px;
+        height: auto;
+        border-radius: 30px;
+        padding: 20px;
+    }
 }
